@@ -1,0 +1,1 @@
+(function(){const c=window.VOXORA_CONFIG||{};if(!c.supabasePublishableKey||c.supabasePublishableKey.includes("PASTE_")){window.voxoraSupabase=null;return}if(window.supabase?.createClient)window.voxoraSupabase=window.supabase.createClient(c.supabaseUrl,c.supabasePublishableKey)})()
